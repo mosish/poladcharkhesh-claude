@@ -1,0 +1,179 @@
+{
+  "hero": {
+    "badgeFa": "تأمین بیرینگ و قطعات دوار صنعتی — تهران",
+    "badgeEn": "Industrial bearing and rotating-component supply — Tehran",
+    "titleHighlightFa": "انتخاب درست بیرینگ،",
+    "titleHighlightEn": "Specify the right bearing,",
+    "titleSuffixFa": "با اتکا به مشخصات فنی مستند.",
+    "titleSuffixEn": "from documented technical data.",
+    "descriptionFa": "کاتالوگ فنی با ابعاد اصلی، ظرفیت بار دینامیکی و استاتیکی و حد سرعت هر شماره، به‌همراه ابزار محاسبهٔ عمر بلبرینگ. موجودی و شرایط بازرگانی از راه گفت‌وگوی مستقیم مشخص می‌شود.",
+    "descriptionEn": "A technical catalogue carrying principal dimensions, dynamic and static load ratings and limiting speeds for every reference, alongside bearing life calculation tools. Availability and commercial terms are settled directly, in conversation.",
+    "searchPlaceholderFa": "شمارهٔ فنی، ابعاد یا کاربرد را وارد کنید…",
+    "searchPlaceholderEn": "Enter a designation, dimension or application…"
+  },
+
+  "capabilities": {
+    "items": [
+      {
+        "icon": "file-text",
+        "titleFa": "مشخصات مستند",
+        "titleEn": "Documented specifications",
+        "textFa": "ابعاد، ظرفیت بار و حد سرعت هر شماره به کاتالوگ سازنده ارجاع داده شده است.",
+        "textEn": "Dimensions, load ratings and limiting speeds for each reference are cited to the manufacturer catalogue."
+      },
+      {
+        "icon": "calculator",
+        "titleFa": "محاسبات مهندسی",
+        "titleEn": "Engineering calculations",
+        "textFa": "عمر اسمی پایه و بار معادل بر پایهٔ ISO 281، با ضرایب مخصوص همان خانوادهٔ بیرینگ.",
+        "textEn": "ISO 281 basic rating life and equivalent load, using the factors specific to each bearing family."
+      },
+      {
+        "icon": "headset",
+        "titleFa": "مشاوره پیش از سفارش",
+        "titleEn": "Advice before ordering",
+        "textFa": "شناسایی قطعه از روی شمارهٔ فنی، ابعاد اندازه‌گیری‌شده یا نمونهٔ فرسوده.",
+        "textEn": "Identifying a part from its designation, from measured dimensions, or from a worn sample."
+      },
+      {
+        "icon": "globe",
+        "titleFa": "کاتالوگ دوزبانه",
+        "titleEn": "Bilingual catalogue",
+        "textFa": "همهٔ مشخصات فنی به فارسی و انگلیسی، برای اشتراک با تأمین‌کننده و واحد نگهداری.",
+        "textEn": "Every specification in Persian and English, ready to share with a supplier or a maintenance team."
+      }
+    ]
+  },
+
+  "about": {
+    "tagFa": "دربارهٔ ما",
+    "tagEn": "The company",
+    "titleFa": "تأمین بیرینگ، با مسئولیت فنی",
+    "titleEn": "Bearing supply, with technical responsibility",
+    "paragraph1Fa": "پولاد چرخِش در تهران، بیرینگ، یاتاقان، کاسه‌نمد و روان‌کار صنعتی را برای تجهیزات دوار تأمین می‌کند. کار از شناسایی دقیق قطعه شروع می‌شود: شمارهٔ فنی، تلرانس نشست روی شفت و پوسته، شرایط بار و سرعت، و محیط کارکرد.",
+    "paragraph1En": "Polad Charkhesh supplies bearings, housed units, oil seals and industrial lubricants for rotating equipment, from Tehran. The work starts by identifying the part properly: the designation, the shaft and housing fits, the load and speed duty, and the operating environment.",
+    "paragraph2Fa": "مشخصات منتشرشده در این کاتالوگ به کاتالوگ سازندگان ارجاع دارد و هر جا مرجعی تأیید نشده باشد، همان‌جا علامت‌گذاری می‌شود. اگر شماره‌ای در کاتالوگ نباشد، به‌جای پیشنهاد جایگزین نامطمئن، بررسی می‌کنیم و نتیجه را می‌گوییم.",
+    "paragraph2En": "Specifications published here are cited to manufacturer catalogues, and anything whose source has not been verified is marked as such. When a reference is not in the catalogue we check it and come back with an answer, rather than proposing an uncertain substitute.",
+    "points": [
+      {
+        "titleFa": "شناسایی قطعه",
+        "titleEn": "Part identification",
+        "textFa": "از روی شمارهٔ فنی، ابعاد اندازه‌گیری‌شده یا نمونهٔ فرسوده — پیش از هر سفارشی.",
+        "textEn": "From a designation, from measured dimensions, or from a worn sample — before anything is ordered."
+      },
+      {
+        "titleFa": "انتخاب بر پایهٔ کاربرد",
+        "titleEn": "Application-led selection",
+        "textFa": "گروه لقی، نوع آب‌بندی و جنس قفسه متناسب با شرایط کارکرد انتخاب می‌شود، نه فقط بر اساس ابعاد.",
+        "textEn": "Clearance group, sealing type and cage material chosen for the duty, not by dimensions alone."
+      },
+      {
+        "titleFa": "مستندسازی",
+        "titleEn": "Documentation",
+        "textFa": "دیتاشیت فنی هر قطعه، برای پیوست به سفارش خرید یا پروندهٔ تعمیرات.",
+        "textEn": "A datasheet for each part, ready to attach to a purchase order or a maintenance record."
+      }
+    ]
+  },
+
+  "catalog": {
+    "tagFa": "کاتالوگ فنی",
+    "tagEn": "Catalogue",
+    "titleFa": "کاتالوگ را بر اساس خانوادهٔ فنی مرور کنید",
+    "titleEn": "Browse the catalogue by bearing family",
+    "descriptionFa": "خانواده تعیین می‌کند که یک بیرینگ چه جهتی از بار را می‌پذیرد و محاسبهٔ عمر با چه توانی انجام می‌شود. اگر شمارهٔ فنی را می‌دانید، جست‌وجو سریع‌تر است.",
+    "descriptionEn": "Family is what determines which load directions a bearing accepts and which life exponent applies. If you already know the designation, searching is quicker."
+  },
+
+  "tools": {
+    "tagFa": "ابزار مهندسی",
+    "tagEn": "Engineering tools",
+    "titleFa": "پیش از سفارش، محاسبه کنید",
+    "titleEn": "Calculate before you specify",
+    "descriptionFa": "ابزارها روی داده‌های همان شمارهٔ فنی کار می‌کنند: ضرایب X، Y و e از رکورد همان قطعه خوانده می‌شود و پیکربندی‌های نامعتبر — مثل بار محوری روی رولبرینگ استوانه‌ای NU — به‌جای خروجی ساختگی، هشدار مهندسی می‌گیرند.",
+    "descriptionEn": "The tools work on the selected reference’s own data: X, Y and e are read from that record, and an invalid configuration — axial load on an NU cylindrical roller bearing, say — returns an engineering warning instead of a fabricated number."
+  },
+
+  "industries": {
+    "tagFa": "صنایع",
+    "tagEn": "Industries",
+    "titleFa": "تجهیزات دوار در صنایع سنگین",
+    "titleEn": "Rotating equipment in heavy industry",
+    "descriptionFa": "هر صنعت، ترکیب بار و شرایط محیطی خودش را دارد. فهرست زیر نشان می‌دهد در هر بخش معمولاً کدام خانواده‌های بیرینگ به کار می‌روند.",
+    "descriptionEn": "Each sector brings its own combination of loading and environment. The list below shows which bearing families are typically specified in each."
+  },
+
+  "whyUs": {
+    "tagFa": "چرا پولاد چرخِش",
+    "tagEn": "Why Polad Charkhesh",
+    "titleFa": "کاری که واقعاً انجام می‌دهیم",
+    "titleEn": "What we actually do",
+    "descriptionFa": "بدون ادعای اثبات‌نشده. آنچه در ادامه آمده، همان چیزی است که در عمل ارائه می‌شود.",
+    "descriptionEn": "No unverifiable claims. What follows is what is actually offered.",
+    "items": [
+      {
+        "titleFa": "مشاورهٔ فنی",
+        "titleEn": "Engineering consultation",
+        "textFa": "بررسی شرایط بار، سرعت و محیط کارکرد پیش از تعیین شمارهٔ فنی.",
+        "textEn": "Reviewing load, speed and operating environment before a designation is settled on."
+      },
+      {
+        "titleFa": "شناسایی قطعه",
+        "titleEn": "Technical identification",
+        "textFa": "تشخیص قطعه از روی ابعاد اندازه‌گیری‌شده یا نمونهٔ فرسوده، وقتی شماره خوانا نیست.",
+        "textEn": "Working out the part from measured dimensions or a worn sample when the designation is no longer legible."
+      },
+      {
+        "titleFa": "تأمین از مبدأ",
+        "titleEn": "Original sourcing",
+        "textFa": "تهیهٔ قطعه از برندهای شناخته‌شدهٔ صنعتی، با اعلام صریح برند تأمین‌شده.",
+        "textEn": "Sourcing from established industrial brands, with the supplied brand stated explicitly."
+      },
+      {
+        "titleFa": "مستندات سازنده",
+        "titleEn": "Manufacturer documentation",
+        "textFa": "ارجاع مشخصات به کاتالوگ سازنده و ارائهٔ دیتاشیت فنی قابل پیوست.",
+        "textEn": "Specifications cited to the manufacturer catalogue, with a datasheet you can attach to your own records."
+      },
+      {
+        "titleFa": "انتخاب بر پایهٔ کاربرد",
+        "titleEn": "Application-based selection",
+        "textFa": "پیشنهاد گروه لقی، آب‌بندی و روان‌کار متناسب با همان تجهیز.",
+        "textEn": "Recommending the clearance group, sealing and lubricant that suit the specific machine."
+      },
+      {
+        "titleFa": "پاسخ سریع",
+        "titleEn": "Fast response",
+        "textFa": "پاسخ استعلام در ساعات کاری اعلام‌شده، از راه تلفن یا واتس‌اپ.",
+        "textEn": "Enquiries answered within the published working hours, by phone or WhatsApp."
+      }
+    ]
+  },
+
+  "support": {
+    "tagFa": "پشتیبانی فنی",
+    "tagEn": "Technical support",
+    "titleFa": "",
+    "titleEn": "",
+    "descriptionFa": "",
+    "descriptionEn": ""
+  },
+
+  "contact": {
+    "tagFa": "تماس و استعلام",
+    "tagEn": "Contact",
+    "titleFa": "قطعه را مشخص کرده‌اید؟ گفت‌وگو کنیم.",
+    "titleEn": "Identified the part? Let’s talk.",
+    "descriptionFa": "شمارهٔ فنی، ابعاد یا عکس قطعه را بفرستید. اگر هنوز به شماره نرسیده‌اید، شرایط کارکرد را بگویید تا با هم به آن برسیم.",
+    "descriptionEn": "Send the designation, the dimensions, or a photograph of the part. If you have not got to a designation yet, describe the duty and we will work it out together."
+  },
+
+  "footer": {
+    "descriptionFa": "تأمین بیرینگ، یاتاقان، کاسه‌نمد و روان‌کار صنعتی برای تجهیزات دوار، همراه با مشاورهٔ فنی پیش از سفارش.",
+    "descriptionEn": "Bearings, housed units, oil seals and industrial lubricants for rotating equipment, with engineering advice before you order.",
+    "copyrightFa": "بازرگانی صنعتی پولاد چرخِش — همهٔ حقوق محفوظ است.",
+    "copyrightEn": "Polad Charkhesh Industrial Trading Co. — All rights reserved.",
+    "disclaimerFa": "مشخصات فنی این کاتالوگ بر پایهٔ کاتالوگ سازندگان و استانداردهای DIN و ISO گردآوری شده و برای شناسایی و انتخاب اولیه است. مسئولیت انتخاب نهایی، تلرانس نشست، روان‌کاری و شرایط نصب بر عهدهٔ مهندس طراح یا واحد نگهداری است. محاسبات ارائه‌شده عمر اسمی پایه (L۱۰) را می‌دهد و جایگزین بررسی مهندسی نیست.",
+    "disclaimerEn": "The technical specifications in this catalogue are compiled from manufacturer catalogues and DIN and ISO standards, and are intended for identification and initial selection. Final selection, shaft and housing fits, lubrication and mounting conditions remain the responsibility of the design or maintenance engineer. The calculations provided give basic rating life (L₁₀) and are not a substitute for an engineering review."
+  }
+}

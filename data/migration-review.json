@@ -1,0 +1,128 @@
+{
+  "source": "/home/claude/ref/data/poladcharkhesh.db",
+  "productCount": 68,
+  "flagged": 12,
+  "note": "Nothing below was modified. These records need human approval before any change.",
+  "records": [
+    {
+      "code": "1309 EKTN9 (SELF-ALIGNING TAPERED BORE)",
+      "slug": "1309-ektn9",
+      "nameEn": "Self-Aligning Ball Bearing 1309 EKTN9",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "deep-groove",
+      "derivedFamily": "self-aligning-ball",
+      "rule": "4-digit series 1xxx (self-aligning ball)",
+      "recommendation": "schematicType should most likely be one of ['self-aligning-ball']."
+    },
+    {
+      "code": "3308 A-2Z/C3 (DOUBLE ROW)",
+      "slug": "3308-a-2z",
+      "nameEn": "Double Row Angular Contact Bearing 3308 A-2Z",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "deep-groove",
+      "derivedFamily": "angular-contact-ball",
+      "rule": "4-digit series 33xx (double row angular contact)",
+      "recommendation": "schematicType should most likely be one of ['angular-contact']."
+    },
+    {
+      "code": "7210 BECBP / P6",
+      "slug": "7210-becbp",
+      "nameEn": "Precision Angular Contact Bearing 7210 BECBP",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "deep-groove",
+      "derivedFamily": "angular-contact-ball",
+      "rule": "4-digit series 7xxx (angular contact ball)",
+      "recommendation": "schematicType should most likely be one of ['angular-contact']."
+    },
+    {
+      "code": "7312 BECBM (40° BRASS CAGE)",
+      "slug": "7312-becbm",
+      "nameEn": "Angular Contact Ball Bearing 7312 BECBM",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "deep-groove",
+      "derivedFamily": "angular-contact-ball",
+      "rule": "4-digit series 7xxx (angular contact ball)",
+      "recommendation": "schematicType should most likely be one of ['angular-contact']."
+    },
+    {
+      "code": "NSK 7010 CTYNDBLP4 SUPER PRECISION",
+      "slug": "nsk-7010-ctyndblp4",
+      "nameEn": "NSK 7010 CTYNDBLP4 Super Precision Angular Contact Spindle Pair",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "deep-groove",
+      "derivedFamily": "angular-contact-ball",
+      "rule": "4-digit series 7xxx (angular contact ball)",
+      "recommendation": "schematicType should most likely be one of ['angular-contact']."
+    },
+    {
+      "code": "NTN 5206 S DOUBLE ROW",
+      "slug": "ntn-5206-s",
+      "nameEn": "NTN 5206 S Double Row Angular Contact Ball Bearing",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "deep-groove",
+      "derivedFamily": "angular-contact-ball",
+      "rule": "4-digit series 52xx (double row angular contact)",
+      "recommendation": "schematicType should most likely be one of ['angular-contact']."
+    },
+    {
+      "code": "MOBILITH SHC 220 SYNTHETIC",
+      "slug": "mobilith-shc-220",
+      "nameEn": "Mobilith SHC 220 Full Synthetic Grease",
+      "issue": "schematic-on-non-bearing",
+      "storedSchematicType": "spherical",
+      "derivedFamily": "lubricant",
+      "rule": "product wording: grease/lubricant",
+      "recommendation": "Clear schematicType; a lubricant has no bearing cross-section."
+    },
+    {
+      "code": "SKF LGMT 2 / 1KG",
+      "slug": "skf-lgmt-2",
+      "nameEn": "SKF Multi-Purpose Industrial Grease LGMT 2",
+      "issue": "schematic-on-non-bearing",
+      "storedSchematicType": "deep-groove",
+      "derivedFamily": "lubricant",
+      "rule": "product wording: grease/lubricant",
+      "recommendation": "Clear schematicType; a lubricant has no bearing cross-section."
+    },
+    {
+      "code": "INA KR 35 PP CAM FOLLOWER",
+      "slug": "ina-kr-35-pp",
+      "nameEn": "INA KR 35 PP Stud Type Track Roller / Cam Follower",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "cylindrical",
+      "derivedFamily": "needle-roller",
+      "rule": "designation prefix KR (stud type track roller / cam follower)",
+      "recommendation": "schematicType should most likely be one of ['needle']."
+    },
+    {
+      "code": "INA NK 25/20 HEAVY NEEDLE ROLLER",
+      "slug": "ina-nk-25-20",
+      "nameEn": "INA NK 25/20 Heavy-Duty Needle Roller Bearing",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "cylindrical",
+      "derivedFamily": "needle-roller",
+      "rule": "designation prefix NA/NK/NKI (needle roller)",
+      "recommendation": "schematicType should most likely be one of ['needle']."
+    },
+    {
+      "code": "NA 4910 (MACHINED NEEDLE ROLLER)",
+      "slug": "na-4910",
+      "nameEn": "Machined Needle Roller Bearing NA 4910",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "cylindrical",
+      "derivedFamily": "needle-roller",
+      "rule": "designation prefix NA/NK/NKI (needle roller)",
+      "recommendation": "schematicType should most likely be one of ['needle']."
+    },
+    {
+      "code": "SKF C 2215 K CARB® TOROIDAL",
+      "slug": "skf-c-2215-k",
+      "nameEn": "SKF C 2215 K CARB Toroidal Roller Bearing Tapered Bore",
+      "issue": "schematic-family-mismatch",
+      "storedSchematicType": "cylindrical",
+      "derivedFamily": "toroidal-roller",
+      "rule": "designation prefix C / CARB toroidal",
+      "recommendation": "schematicType should most likely be one of ['carb']."
+    }
+  ]
+}

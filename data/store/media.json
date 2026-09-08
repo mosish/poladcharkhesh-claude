@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-09-07T22:17:44+00:00",
+  "usable": [],
+  "broken": [
+    {
+      "path": "/assets/images/ball_bearing_photo_1787677355061.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 185840
+    },
+    {
+      "path": "/assets/images/bearing_1309_align_1787678841334.webp",
+      "reason": "RIFF length 66422 does not match file (120665)",
+      "bytes": 120673
+    },
+    {
+      "path": "/assets/images/bearing_22212_spherical_1787678650795.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 192196
+    },
+    {
+      "path": "/assets/images/bearing_22316_spherical_1787678662094.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 156716
+    },
+    {
+      "path": "/assets/images/bearing_22324_brass_1787678785316.webp",
+      "reason": "RIFF length 138106 does not match file (250087)",
+      "bytes": 250095
+    },
+    {
+      "path": "/assets/images/bearing_29420_thrust_1787678796134.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 186806
+    },
+    {
+      "path": "/assets/images/bearing_30208_tapered_1787678619565.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 153239
+    },
+    {
+      "path": "/assets/images/bearing_32210_tapered_1787678639800.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 266225
+    },
+    {
+      "path": "/assets/images/bearing_3308_doublerow_1787678851991.webp",
+      "reason": "RIFF length 67684 does not match file (123198)",
+      "bytes": 123206
+    },
+    {
+      "path": "/assets/images/bearing_51108_thrust_1787678727693.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 130212
+    },
+    {
+      "path": "/assets/images/bearing_6005_open_1787678608569.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 185090
+    },
+    {
+      "path": "/assets/images/bearing_6204_2rs_1787678583210.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 177797
+    },
+    {
+      "path": "/assets/images/bearing_6210_kiln_1787678818521.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 207627
+    },
+    {
+      "path": "/assets/images/bearing_6308_2z_1787678597854.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 142595
+    },
+    {
+      "path": "/assets/images/bearing_7312_brass_1787678774838.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 301861
+    },
+    {
+      "path": "/assets/images/bearing_na4910_needle_1787678806671.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 220860
+    },
+    {
+      "path": "/assets/images/bearing_nu208_cylindrical_1787678672477.webp",
+      "reason": "RIFF length 71784 does not match file (130254)",
+      "bytes": 130262
+    },
+    {
+      "path": "/assets/images/cylindrical_bearing_photo_1787677431892.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 150646
+    },
+    {
+      "path": "/assets/images/grease_mobilith_red_1787678829445.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 103584
+    },
+    {
+      "path": "/assets/images/grease_skf_lgmt2_1787678760211.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 163864
+    },
+    {
+      "path": "/assets/images/housing_snl511_split_1787678749335.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 312145
+    },
+    {
+      "path": "/assets/images/oil_seal_photo_1787677410030.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 98907
+    },
+    {
+      "path": "/assets/images/pillow_block_photo_1787677398497.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 252940
+    },
+    {
+      "path": "/assets/images/seal_tc35_nbr_1787678715667.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 139953
+    },
+    {
+      "path": "/assets/images/seal_tc50_viton_1787678737812.webp",
+      "reason": "RIFF length 77366 does not match file (140022)",
+      "bytes": 140030
+    },
+    {
+      "path": "/assets/images/spherical_bearing_photo_1787677386106.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 212717
+    },
+    {
+      "path": "/assets/images/tapered_bearing_photo_1787677370531.webp",
+      "reason": "utf-8 round-trip corruption (U+FFFD in header)",
+      "bytes": 199076
+    },
+    {
+      "path": "/assets/images/unit_ucf208_flange_1787678704716.webp",
+      "reason": "RIFF length 132704 does not match file (240717)",
+      "bytes": 240725
+    },
+    {
+      "path": "/assets/images/unit_ucp205_pillow_1787678692893.webp",
+      "reason": "RIFF length 71012 does not match file (129280)",
+      "bytes": 129288
+    }
+  ]
+}

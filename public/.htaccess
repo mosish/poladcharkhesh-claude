@@ -1,0 +1,50 @@
+# Polad Charkhesh — Apache configuration for cPanel shared hosting.
+# This file lives at the document root (public_html).
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Send everything that is not an existing file or directory to the front
+    # controller. Static assets under /assets are therefore served by Apache
+    # directly and never touch PHP.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Cross-Origin-Opener-Policy "same-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+
+    # Long-lived caching for fingerprinted assets.
+    <FilesMatch "\.(woff2|webp|avif|png|jpg|jpeg|svg|ico)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+# Never serve dotfiles or backup files.
+<FilesMatch "^\.|\.(env|json\.tmp|lock|md|bak|sql|log)$">
+    Require all denied
+</FilesMatch>
+
+# The JSON store and application code live outside this directory. If a host
+# layout forces them inside it, these rules keep them unreachable over HTTP.
+RedirectMatch 404 ^/(app|data|src|scripts|tests|docs)(/|$)
+
+DirectoryIndex index.php
+Options -Indexes
+
+<IfModule mod_mime.c>
+    AddType font/woff2 .woff2
+    AddType image/webp .webp
+    AddType image/avif .avif
+</IfModule>
+
+ErrorDocument 404 /index.php

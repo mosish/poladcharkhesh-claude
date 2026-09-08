@@ -1,0 +1,252 @@
+/* =========================================================================
+   Remaining component pieces
+   ========================================================================= */
+
+/* -------------------------------------------------------------------------
+   Hero visualisation
+   ------------------------------------------------------------------------- */
+.hero-visual {
+  position: relative;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+}
+
+.hero-visual__stage {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  max-inline-size: 36rem;
+  margin-inline: auto;
+  inline-size: 100%;
+}
+
+.hero-visual__canvas {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.hero-visual__fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: var(--s-8);
+  text-align: center;
+  color: var(--dark-ink-3);
+  font-size: var(--text-sm);
+}
+
+.hero-visual__caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-2) var(--s-5);
+  padding-block-start: var(--s-4);
+  border-block-start: 1px solid var(--dark-line);
+  font-size: var(--text-xs);
+  color: var(--dark-ink-3);
+}
+
+.hero-visual__code {
+  color: var(--blue-light);
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+
+.hero-visual__dims {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+}
+
+@media (max-width: 1039px) {
+  .hero-visual__stage {
+    max-inline-size: 26rem;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Cards whose primary action covers the whole surface
+   ------------------------------------------------------------------------- */
+.card--linked {
+  overflow: hidden;
+}
+
+.stretch-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.card--linked:focus-within {
+  border-color: var(--blue);
+  box-shadow: var(--shadow-2);
+}
+
+/* Any genuinely separate link inside a stretched card must sit above it. */
+.card--linked .badge,
+.card--linked .frame {
+  position: relative;
+}
+
+/* -------------------------------------------------------------------------
+   Terminal state pages
+   ------------------------------------------------------------------------- */
+.message-page {
+  max-width: 56ch;
+  padding-block: clamp(var(--s-8), 6vw, var(--s-20));
+}
+
+.message-page__path {
+  margin-block-start: var(--s-5);
+  word-break: break-all;
+}
+
+/* -------------------------------------------------------------------------
+   Section-level anchors keep clear of the sticky header
+   ------------------------------------------------------------------------- */
+section[id] {
+  scroll-margin-block-start: calc(var(--header-height) + var(--s-4));
+}
+
+/* -------------------------------------------------------------------------
+   Overflow discipline
+   A grid or flex item defaults to a min-size of auto, so one unbreakable
+   string — an email address, a bearing designation — can push a whole track
+   wider than the viewport. These rules let tracks shrink and let long
+   technical strings break, so the page itself never scrolls sideways.
+   ------------------------------------------------------------------------- */
+.grid > *,
+.split > *,
+.hero__inner > *,
+.capabilities > *,
+.instrument__readout > * {
+  min-inline-size: 0;
+}
+
+.contact-card__value,
+.site-footer__contact a,
+.product-card__code,
+.hero-search__result-code {
+  overflow-wrap: anywhere;
+}
+
+/* The mode switcher scrolls inside itself on a narrow screen rather than
+   forcing the panel wider. */
+.instrument__modes {
+  max-inline-size: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.instrument__modes::-webkit-scrollbar {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------
+   Small-screen refinements
+   ------------------------------------------------------------------------- */
+@media (max-width: 639px) {
+  .hero__actions .btn {
+    flex: 1 1 100%;
+  }
+
+  .hero__facts {
+    gap: var(--s-5) var(--s-6);
+  }
+
+  .hero__fact-value {
+    font-size: var(--text-lg);
+  }
+
+  .capability {
+    padding: var(--s-5);
+  }
+
+  .instrument__head {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--s-3);
+  }
+
+  .instrument__modes {
+    justify-content: space-between;
+  }
+
+  .instrument__mode {
+    flex: 1;
+    text-align: center;
+  }
+
+  .plate {
+    padding: var(--s-5);
+  }
+
+  .plate__title-block {
+    grid-template-columns: 1fr;
+  }
+
+  .plate__field:nth-child(2n) {
+    border-inline-end: 1px solid var(--line);
+  }
+
+  .family-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
+  }
+
+  .family-card {
+    padding: var(--s-4);
+  }
+
+  .family-card__schematic {
+    inline-size: 38px;
+    block-size: 38px;
+  }
+}
+
+/* Tablet portrait: the hero stacks but the instrument keeps its proportions. */
+@media (min-width: 640px) and (max-width: 1039px) {
+  .hero__inner {
+    padding-block: var(--s-16) var(--s-12);
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Badges inside a column stack
+   A flex column stretches its children, which turns an inline badge into a
+   full-width bar. Badges that stand alone in a stack opt out.
+   ------------------------------------------------------------------------- */
+.badge--self,
+.card__body > .badge {
+  align-self: flex-start;
+}
+
+/* -------------------------------------------------------------------------
+   Schematic fallback
+   Shown when the catalogue has no decodable photograph for a reference. It is
+   the family's section symbol, drawn on the same measured ground the
+   photographs would have used.
+   ------------------------------------------------------------------------- */
+.frame--schematic {
+  background:
+    linear-gradient(to right, rgb(35 44 134 / 0.05) 1px, transparent 1px) 0 0 / 12px 12px,
+    linear-gradient(to bottom, rgb(35 44 134 / 0.05) 1px, transparent 1px) 0 0 / 12px 12px,
+    var(--surface-sunken);
+}
+
+.frame__schematic {
+  inline-size: clamp(64px, 34%, 104px);
+  block-size: auto;
+  color: var(--navy);
+  opacity: 0.55;
+  transition: opacity var(--t) var(--ease), transform var(--t-slow) var(--ease-out);
+}
+
+.card--interactive:hover .frame__schematic {
+  opacity: 0.8;
+  transform: scale(1.04);
+}

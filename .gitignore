@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Dependencies (build-time only; the host never runs Node)
+/node_modules/
+
+# Runtime data. The seed store under data/store/ IS committed so a fresh
+# checkout has the catalogue; these are the files a running site writes.
+/data/store/*.lock
+/data/store/*.tmp
+/data/uploads/*
+!/data/uploads/.gitkeep
+
+# Logs and OS noise
+*.log
+.DS_Store
+Thumbs.db
+
+# Built assets are committed on purpose — deployment to shared hosting is a
+# file upload, and the host cannot run a build. Nothing is ignored here.
+
+# Visual verification output — regenerable with scripts/screenshots.mjs
+/screenshots/
